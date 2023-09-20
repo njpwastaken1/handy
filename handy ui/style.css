@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.align-start {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.align-end {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.text-dec {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+}
+
+.change-width {
+  width: 100%;
+}
+
+.img-fluid {
+  max-width: 80%;
+}
+
+.img-logo {
+  max-width: 100%;
+}
+
+.padding-border {
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.background-image {
+  background: linear-gradient(
+      to bottom,
+      rgba(26, 64, 89, 0.52),
+      rgba(26, 64, 89, 0.73)
+    ),
+    url('images/5f5b468cc4d72a6d73b3be78_landing-1-hero.jpg');
+}
+
+.blue-background {
+  background-color: #44abf6;
+}
+
+.btn {
+  padding: 15px 55px;
+  border-radius: 5px;
+}
+
+.btn-header {
+  color: #fff;
+  background-color: #44abf6;
+}
+
+.fit {
+  max-width: fit-content;
+}
+
+.nav-gap {
+  display: flex;
+  gap: 1rem;
+}
+
+.text-white {
+  color: white;
+}
+
+.btn-hero {
+  color: #000;
+  background-color: white;
+}
+
+.text-gap {
+  display: flex;
+  gap: 2rem;
+}
+
+.h1-size {
+  font-size: 4em;
+}
+
+.h1-max {
+  max-width: 50rem;
+}
+
+.p-max {
+  max-width: 37rem;
+}
+
+.section-padding {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.img-times {
+  max-width: 50%;
+}
+
+.section-normal {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.blue {
+  color: #1e2245;
+}
+
+.h2-size {
+  font-size: 2.5em;
+}
+
+.h2-max {
+  max-width: 30rem;
+}
+
+.h4-size {
+  font-size: 2em;
+}
+
+.img-gallery {
+  max-width: 80%;
+}
+
+.img-1 {
+  max-width: 25%;
+  background-image: url(images/5f5b495406bc08304e415365_gallery-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 500px;
+}
+
+.img-2 {
+  max-width: 100%;
+  background-image: url(images/5f5b4b0327712031d97ba0a3_gallery-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 220px;
+}
+
+* {
+  outline: 1px solid red;
+}
